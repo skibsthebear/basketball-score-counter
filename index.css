@@ -1,0 +1,207 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111827;
+
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+}
+
+
+.container h3{
+    margin: 50px 0px 0px 0px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F3F4F6;
+    font-size: 40;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ******************** */
+/*  TIMER             */
+/* ******************** */
+
+#timer{
+    color:#F94F6D;
+    font-family:'Cursed Timer ULiL', sans-serif;
+    font-size: 25px;
+
+    display: flex;
+    position: absolute;
+    top: 30px;
+    
+}
+
+/* ******************** */
+/*  GUEST CONTAINER      */
+/* ******************** */
+#guest-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#guest-score{
+    margin: 10px 0;
+    padding: 0.2em 0.5em 0em 0.52em;
+    min-width: min-content;
+    border-radius: 5px;
+    background-color: #080001;
+    
+    font-family: 'Cursed Timer ULiL', sans-serif;                                           
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ********************* */
+/*  GUEST BUTTONS      */
+/* ********************* */
+#guest-buttons-container{
+    margin: 5px 0px 0px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+#guest-buttons-container button{
+    margin: 0 0 65px 0;
+    padding: 5px;
+    background-color: #111827;
+
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+
+    
+}
+
+#guest-buttons-container button:hover{
+    background-color: #ffffff15;
+    cursor: crosshair;
+}
+
+/* ******************** */
+/*  HOME CONTAINER      */
+/* ******************** */
+
+#home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#home-score{
+    margin: 10px 0;
+    padding: 0.2em 0.5em 0em 0.52em;
+    min-width: min-content;
+    border-radius: 5px;
+    background-color: #080001;
+    
+    font-family: 'Cursed Timer ULiL', sans-serif;                                           
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ********************* */
+/*  HOME BUTTONS      */
+/* ********************* */
+
+#home-buttons-container{
+    margin: 5px 0px 0px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+#home-buttons-container button{
+    margin: 0 0 65px 0;
+    padding: 5px;
+    background-color: #111827;
+
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;}
+
+    #home-buttons-container button:hover{
+        background-color: #ffffff15;
+        cursor: crosshair;
+    }
+
+/* ******************** */
+/*  RESET BUTTON      */
+/* ******************** */
+
+#reset-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 200px;
+}
+
+#reset-btn{
+
+    color: whitesmoke;
+    background-color: #E11D48;
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#reset-btn:hover{
+
+    color: whitesmoke;
+    background-color: #9F1239;
+    cursor:grab;
+}
